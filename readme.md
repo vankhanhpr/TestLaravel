@@ -13,30 +13,30 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ----------------------------------------------------------
 Document 
--- Hướng dẫn chạy 
+-- Hướng dẫn chạy </br>
 
 Cài đặt các môi trường: xamp,php, mysql
+</br>
+Clone project : @git clone https://github.com/vankhanhpr/TestLaravel.git -- in your forder (C:\xampp\htdocs)--thư mực được tạo khi cài xamp.</br>
+Tạo database trên mysql : dbname :Test table:users (userid (key), username, password).</br>
 
-Clone project : @git clone https://github.com/vankhanhpr/TestLaravel.git -- in your forder (C:\xampp\htdocs)--thư mực được tạo khi cài xamp.
-Tạo database trên mysql : dbname :Test table:users (userid (key), username, password).
-
-lệnh:
-create database test;
-use test;
-create table users (
-    userid int not null promary key autoincrement,
-    username nvarchar(1000) not null,
-    password nvarchar(1000) not null 
- );
+lệnh:</br>
+create database test;</br>
+use test;</br>
+create table users (</br>
+    userid int not null promary key autoincrement,</br>
+    username nvarchar(1000) not null,</br>
+    password nvarchar(1000) not null </br>
+ );</br>
  
  --end 
- Cấu hình file .env nếu có sự thay đổi -- file connect database.
- 
- --Run project
- Open terminal;
-    composer install; lệnh instal library like npm install
-    php artisan serve -- to run project
- --end
-suport : https://github.com/vankhanhpr 
-email: khanhnv@hcmute.edu.vn
-face: facebook.com/atun.1865
+ Cấu hình file .env nếu có sự thay đổi -- file connect database.</br>
+ </br>
+ --Run project</br>
+ Open terminal;</br>
+    composer install; lệnh instal library like npm install</br>
+    php artisan serve -- to run project</br>
+ --end</br>
+suport : https://github.com/vankhanhpr </br>
+email: khanhnv@hcmute.edu.vn</br>
+face: facebook.com/atun.1865</br>
